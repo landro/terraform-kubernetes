@@ -26,11 +26,11 @@
 
 # Deploy application using kubectl
 
-   kubectl run terraform-node --image=centos/httpd:latest --port=80
-   kubectl expose deployment terraform-node --type="LoadBalancer"
-   kubectl get services terraform-node
-   kubectl proxy
-   kubectl delete service,deployment terraform-node
+    kubectl run terraform-node --image=centos/httpd:latest --port=80
+    kubectl expose deployment terraform-node --type="LoadBalancer"
+    kubectl get services terraform-node
+    kubectl proxy
+    kubectl delete service,deployment terraform-node
 
 # An interesting blog post 
 http://omerio.com/2016/01/02/getting-started-with-kubernetes-on-google-container-engine/
